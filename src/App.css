@@ -1,0 +1,42 @@
+.App {
+  width: 80 vw;
+  height: 80 hw;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.photo{
+  width: 50 vw;
+  height: 50 hw;
+  border-radius: 20%;
+  border: #282c34;
+}
+
+.Profile{
+  width: 100vw;
+  height: 50 hw;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  justify-self: center;
+}
+.desc{
+  background-color: bisque;
+  width :50vh;
+  height: 50 hw;
+  border-radius: 30%;
+ 
+}
